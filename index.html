@@ -1,0 +1,1137 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <!-- Required meta tags -->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-------------meta for SEO----------------->
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <!-------Google fonts----------->
+        <link
+            rel="preconnect"
+            href="https://fonts.gstatic.com"
+            crossorigin="crossorigin">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+        <!----font awesome----->
+        <link rel="stylesheet" href="css/all.min.css">
+        <link rel="stylesheet" href="css/fontawesome.min.css">
+        <!-- Bootstrap CSS -->
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+            crossorigin="anonymous">
+   
+        <!---Coustom css----->
+        <link rel="stylesheet" href="css/demo.css">
+        <link rel="stylesheet" href="css/responsive.css">
+        <title>HOME SCANER</title>
+    </head>
+
+    <body>
+        <header class="header-area Mobsticky">
+            <div class="top-header-area">
+                <div class="container">
+                    <div class="custom-row d-flex align-item-center">
+                        <div class="custom-col">
+                            <button
+                                class="btn"
+                                type="button"
+                                data-bs-toggle="offcanvas"
+                                data-bs-target="#offcanvasExample"
+                                aria-controls="offcanvasExample">
+                                <img src="img/mobileMenuIcone.svg" alt="">
+                            </button>
+                            <div class="curency-select">
+                                <img src="img/usd.svg" alt="">
+                                <select>
+                                    <option value="0">USD</option>
+                                    <option value="1">RUB</option>
+                                    <option value="2">EURO</option>
+                                    <option value="1">DIRHAM</option>
+                                </select>
+                            </div>
+
+                        </div>
+                        <div class="custom-col custom-col-none">
+                            <div class="languge-selection">
+                                <img src="img/languge.svg" alt="">
+                                <select>
+                                    <option value="0">ENGLISH</option>
+                                    <option value="1">ARABIC</option>
+
+                                </select>
+                            </div>
+                        </div>
+                        <div class="custom-col custom-col-3">
+                            <div class="contact-number">
+                                <a href="tel:+1 (836) 230-40-09"><img src="img/phone.svg"/>+1 (836) 230-40-09</a>
+                            </div>
+                        </div>
+                        <div class="custom-col custom-col-4">
+                            <div class="social-area">
+                                <ul>
+                                    <li>
+                                        <a href=""><img src="img/facebook.svg" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="img/twitter.svg" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="img/instagram.svg" alt=""></a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="img/google+.svg" alt=""></a>
+
+                                    </li>
+                                    <li id="last-child">
+                                        <a href=""><img src="img/youtube.svg" alt=""></a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="mobile-logo"><img src="img/mobileLogo.svg" alt=""></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-header-area" id="myHeader">
+                <nav class="navbar navbar-expand-lg navbar-light">
+                    <div class="container">
+                        <div
+                            class="offcanvas offcanvas-start-lg"
+                            tabindex="-1"
+                            id="offcanvasExample"
+                            aria-labelledby="offcanvasExampleLabel">
+                            <div class="offcanvas-header d-lg-none">
+
+                                <img class="header-img" src="img/footerLogo.png" alt="">
+                                <div class="call-number">
+                                    <img src="img/phone.svg" alt="">
+                                    <p>+1 (836) 230-40-09</p>
+                                </div>
+                                <a
+                                    href="javascript:void(0) "
+                                    class="text-reset p-0"
+                                    data-bs-dismiss="offcanvas"
+                                    aria-label="close">
+                                    <img src="img/closeIcone.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="offcanvas-body p-lg-0 d-flex ">
+                                <div class="languge-curency d-flex">
+                                    <a href=""><img src="img/lan-black.svg" alt=""></a>
+                                    <a href=""><img src="img/curency.svg" alt=""></a>
+                                </div>
+                                <div class="laptop-logo"><img src="img/mainLogo.png" alt=""></div>
+
+                                <div class="Country-selection">
+                                    <select>
+                                        <option value="0">COUNTRY</option>
+                                        <option value="1">Austria</option>
+                                        <option value="1">UAE</option>
+                                        <option value="1">USA</option>
+                                        <option value="1">UK</option>
+
+                                    </select>
+                                </div>
+
+                                <ul class="navbar-nav">
+
+                                    <li class="nav-item frist-child">
+                                        <a class="nav-link" aria-current="page" href="index.html">RENT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">BUY</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link " aria-current="page" href="home.html">OFF-PLAN</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">DEVELOPERS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">AGENCY/AGENT</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="index.html">PROPERTY NEWS</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" aria-current="page" href="#">3D TOUR</a>
+                                    </li>
+
+                                </ul>
+                                <div class="user-account d-flex">
+                                    <a href="">
+                                        <img src="img/login 1.svg" alt="">
+                                        <p>LOG IN</p>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!----------------Banner section------------------->
+        <section class="banner-section">
+
+            <div class="banner-content-wrapper">
+                <div class="top-content-wrapper">
+                    <h1>homescaner.com</h1>
+                    <h3>Find Your Perfect Home</h3>
+
+                </div>
+                <div class="search-box">
+                    <div class="selection-button-wrapper">
+                        <button class="active" type="submit">Buy</button>
+                        <button type="submit">Rent</button>
+                        <button type="submit">Sale</button>
+                        <button type="submit">Off-plan</button>
+                    </div>
+                    <div class="srarch-option-wrapper">
+                        <div class="row">
+                            <div class="col-7 col-sm-10 col-lg-5 order-1 order-lg-1">
+                                <div class="main-search-input my-3 my-lg-0">
+                                    <input placeholder="City, community or building" type="text">
+                                    <img src="img/searchcolor.svg" alt="">
+                                </div>
+                            </div>
+                            <div class="col-12 col-lg-5 order-3 order-lg-2">
+                                <div class="Property-type">
+                                    <select>
+                                        <option value="0">
+                                            Property type</option>
+                                        <option value="1">2 Property type</option>
+                                        <option value="1">3 Property type</option>
+
+                                    </select>
+                                    <select>
+                                        <option value="0">
+                                            Beds & Baths</option>
+                                        <option value="1">2 Beds & Baths</option>
+                                        <option value="1">3 Beds & Baths</option>
+
+                                    </select>
+                                    <select>
+                                        <option value="0">
+                                            Price</option>
+                                        <option value="1">2 Price</option>
+                                        <option value="1">3 Price</option>
+
+                                    </select>
+                                </div>
+
+                            </div>
+                            <div class="col-5 col-sm-2 order-2 order-lg-3">
+                                <div class="search-submit my-3 my-lg-0">
+                                    <button type="submit">SEARCH</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="more-option">
+                        <div class="check-box">
+                            <input type="radio" id="html" name="fav_language" value="HTML">
+                            <label for="html">Show commercial properties only</label>
+                        </div>
+                        <p>
+                            <span>BOOK</span>
+                            a free advise</p>
+                        <select>
+                            <option value="0">Show more search options</option>
+                            <option value="1">1 options</option>
+                            <option value="1">2 options</option>
+
+                        </select>
+                    </div>
+                </div>
+                <div class="banner-button-wrapper">
+                    <a href="">off-plan projects</a>
+                    <a href="">virtual tour</a>
+                </div>
+            </div>
+
+        </section>
+        <!-------------------Charming Apartment---------------------->
+        <section class="shortBy">
+            <div class="line-div">
+                <div class="line"></div>
+                <h4>RECOMMENDED PROPERTIES IN DUBAI & ABU DHABI</h4>
+                <div class="line"></div>
+            </div>
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="main-slider">
+                                        <div class="slider-img-wrapper">
+                                            <img class="img-class" src="img/Furnished Villa.png" alt="">
+
+                                            <div class="photo-view">
+                                                <img src="img/photo 2.svg" alt="">
+                                                <h4>5</h4><img src="img/3d 1.svg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content-feature-wrapper">
+
+                                        <a href="">
+                                            <p class="AmazingView">Charming Apartment | Amazing View | ...</p>
+                                        </a>
+                                        <div class="apartment">
+                                            <div class="button-wap">
+                                                <button type="submit"><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                                <button type="submit"><img src="img/colorlocation.svg" alt=""></button>
+                                            </div>
+                                            <p>$580,000</p>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/spalnia 1.svg" alt=""></div>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/vanna 1.svg" alt=""></div>
+                                            <p class="sqfta">villa</p>
+                                        </div>
+                                        <div class="check">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <p>Check
+                                                        <span>3</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Commision
+                                                        <span>5%</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Parking
+                                                        <span>2</span></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <p class="other-listings">
+                                            <span>4
+                                            </span>
+                                            other listings by Real Estate in this area</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="main-slider">
+                                        <div class="slider-img-wrapper">
+                                            <img class="img-class" src="img/charmint apoitment.png" alt="">
+
+                                            <div class="photo-view">
+                                                <img src="img/photo 2.svg" alt="">
+                                                <h4>5</h4><img src="img/3d 1.svg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content-feature-wrapper">
+
+                                        <a href="">
+                                            <p class="AmazingView">Charming Apartment | Amazing View | ...</p>
+                                        </a>
+                                        <div class="apartment">
+                                            <div class="button-wap">
+                                                <button type="submit"><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                                <button type="submit"><img src="img/colorlocation.svg" alt=""></button>
+                                            </div>
+                                            <p>$580,000</p>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/spalnia 1.svg" alt=""></div>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/vanna 1.svg" alt=""></div>
+                                            <p class="sqfta">villa</p>
+                                        </div>
+                                        <div class="check">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <p>Check
+                                                        <span>3</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Commision
+                                                        <span>5%</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Parking
+                                                        <span>2</span></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <p class="other-listings">
+                                            <span>4
+                                            </span>
+                                            other listings by Real Estate in this area</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="main-slider">
+                                        <div class="slider-img-wrapper">
+                                            <img class="img-class" src="img/Furnished Villa.png" alt="">
+
+                                            <div class="photo-view">
+                                                <img src="img/photo 2.svg" alt="">
+                                                <h4>5</h4><img src="img/3d 1.svg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content-feature-wrapper">
+
+                                        <a href="">
+                                            <p class="AmazingView">Charming Apartment | Amazing View | ...</p>
+                                        </a>
+                                        <div class="apartment">
+                                            <div class="button-wap">
+                                                <button type="submit"><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                                <button type="submit"><img src="img/colorlocation.svg" alt=""></button>
+                                            </div>
+                                            <p>$580,000</p>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/spalnia 1.svg" alt=""></div>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/vanna 1.svg" alt=""></div>
+                                            <p class="sqfta">villa</p>
+                                        </div>
+                                        <div class="check">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <p>Check
+                                                        <span>3</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Commision
+                                                        <span>5%</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Parking
+                                                        <span>2</span></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <p class="other-listings">
+                                            <span>4
+                                            </span>
+                                            other listings by Real Estate in this area</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!------------------------DISCOVER VIRTUAL TOUR------------------------------>
+        <section class="virtual-section">
+            <div class="line-div">
+                <div class="line"></div>
+                <h4>DISCOVER VIRTUAL TOUR</h4>
+                <div class="line"></div>
+            </div>
+            <div class="container"><img src="img/virtualtour.png" alt=""></div>
+        </section>
+        <!-------------------Charming Apartment---------------------->
+        <section class="shortBy">
+            <div class="line-div">
+                <div class="line"></div>
+                <h4>RECOMMENDED PROPERTIES IN DUBAI & ABU DHABI</h4>
+                <div class="line"></div>
+            </div>
+            <div class="container">
+                <div class="content-wrapper">
+                    <div class="row">
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="main-slider">
+                                        <div class="slider-img-wrapper">
+                                            <img class="img-class" src="img/Furnished Villa.png" alt="">
+
+                                            <div class="photo-view">
+                                                <img src="img/photo 2.svg" alt="">
+                                                <h4>5</h4><img src="img/3d 1.svg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content-feature-wrapper">
+
+                                        <a href="">
+                                            <p class="AmazingView">Charming Apartment | Amazing View | ...</p>
+                                        </a>
+                                        <div class="apartment">
+                                            <div class="button-wap">
+                                                <button type="submit"><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                                <button type="submit"><img src="img/colorlocation.svg" alt=""></button>
+                                            </div>
+                                            <p>$580,000</p>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/spalnia 1.svg" alt=""></div>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/vanna 1.svg" alt=""></div>
+                                            <p class="sqfta">villa</p>
+                                        </div>
+                                        <div class="check">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <p>Check
+                                                        <span>3</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Commision
+                                                        <span>5%</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Parking
+                                                        <span>2</span></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <p class="other-listings">
+                                            <span>4
+                                            </span>
+                                            other listings by Real Estate in this area</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="main-slider">
+                                        <div class="slider-img-wrapper">
+                                            <img class="img-class" src="img/charmint apoitment.png" alt="">
+
+                                            <div class="photo-view">
+                                                <img src="img/photo 2.svg" alt="">
+                                                <h4>5</h4><img src="img/3d 1.svg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content-feature-wrapper">
+
+                                        <a href="">
+                                            <p class="AmazingView">Charming Apartment | Amazing View | ...</p>
+                                        </a>
+                                        <div class="apartment">
+                                            <div class="button-wap">
+                                                <button type="submit"><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                                <button type="submit"><img src="img/colorlocation.svg" alt=""></button>
+                                            </div>
+                                            <p>$580,000</p>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/spalnia 1.svg" alt=""></div>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/vanna 1.svg" alt=""></div>
+                                            <p class="sqfta">villa</p>
+                                        </div>
+                                        <div class="check">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <p>Check
+                                                        <span>3</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Commision
+                                                        <span>5%</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Parking
+                                                        <span>2</span></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <p class="other-listings">
+                                            <span>4
+                                            </span>
+                                            other listings by Real Estate in this area</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4">
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="main-slider">
+                                        <div class="slider-img-wrapper">
+                                            <img class="img-class" src="img/Furnished Villa.png" alt="">
+
+                                            <div class="photo-view">
+                                                <img src="img/photo 2.svg" alt="">
+                                                <h4>5</h4><img src="img/3d 1.svg" alt=""></div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="content-feature-wrapper">
+
+                                        <a href="">
+                                            <p class="AmazingView">Charming Apartment | Amazing View | ...</p>
+                                        </a>
+                                        <div class="apartment">
+                                            <div class="button-wap">
+                                                <button type="submit"><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                                <button type="submit"><img src="img/colorlocation.svg" alt=""></button>
+                                            </div>
+                                            <p>$580,000</p>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/spalnia 1.svg" alt=""></div>
+                                            <div class="img-wap">
+                                                <span>4</span>
+                                                <img src="img/vanna 1.svg" alt=""></div>
+                                            <p class="sqfta">villa</p>
+                                        </div>
+                                        <div class="check">
+                                            <ul class="d-flex">
+                                                <li>
+                                                    <p>Check
+                                                        <span>3</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Commision
+                                                        <span>5%</span></p>
+                                                </li>
+                                                <li>
+                                                    <p>Parking
+                                                        <span>2</span></p>
+                                                </li>
+                                            </ul>
+                                        </div>
+
+                                        <p class="other-listings">
+                                            <span>4
+                                            </span>
+                                            other listings by Real Estate in this area</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-----------------------Abu Dhabi------------------------------>
+        <section class="abu-Dhabi">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-lg-4">
+                        <div class="all-Abu-Dhabi-main-content">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="img/nullimg.png" alt=""></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="Abu-Dhabi-main-content">
+                                        <h4>Dubai</h4>
+                                        <p>948 project</p>
+                                        <p>94 agents</p>
+                                        <p>94 developers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <div class="all-Abu-Dhabi-main-content">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="img/nullimg.png" alt=""></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="Abu-Dhabi-main-content">
+                                        <h4>Dubai</h4>
+                                        <p>948 project</p>
+                                        <p>94 agents</p>
+                                        <p>94 developers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <div class="all-Abu-Dhabi-main-content">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="img/nullimg.png" alt=""></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="Abu-Dhabi-main-content">
+                                        <h4>Dubai</h4>
+                                        <p>948 project</p>
+                                        <p>94 agents</p>
+                                        <p>94 developers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <div class="all-Abu-Dhabi-main-content">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="img/nullimg.png" alt=""></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="Abu-Dhabi-main-content">
+                                        <h4>Dubai</h4>
+                                        <p>948 project</p>
+                                        <p>94 agents</p>
+                                        <p>94 developers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <div class="all-Abu-Dhabi-main-content">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="img/nullimg.png" alt=""></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="Abu-Dhabi-main-content">
+                                        <h4>Dubai</h4>
+                                        <p>948 project</p>
+                                        <p>94 agents</p>
+                                        <p>94 developers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6 col-lg-4">
+                        <div class="all-Abu-Dhabi-main-content">
+                            <div class="row">
+                                <div class="col-12 col-md-6">
+                                    <img src="img/nullimg.png" alt=""></div>
+                                <div class="col-12 col-md-6">
+                                    <div class="Abu-Dhabi-main-content">
+                                        <h4>Dubai</h4>
+                                        <p>948 project</p>
+                                        <p>94 agents</p>
+                                        <p>94 developers</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!--------------------------for-sell-------------------->
+        <section class="for-sell">
+            <div class="line-div">
+                <div class="line"></div>
+                <h4>NEW PROPERTIES</h4>
+                <div class="line"></div>
+            </div>
+            <div class="container">
+                <h4>For Sell</h4>
+                <div class="row">
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="for-sell-wrapper">
+                            <div class="for-sell-img">
+                                <div class="img-wrapper">
+                                    <img src="img/for-sell-1.png" alt="">
+                                </div>
+                                <div class="img-upper-logo"><img src="img/mainLogo.png" alt=""></div>
+                                <div class="love-location">
+                                    <button><img src="img/colorlocation.svg" alt=""></button>
+                                    <button><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                </div>
+                                <div class="rent-buy">
+                                    <p>RENT</p>
+                                </div>
+                                <div class="camera-text">
+                                    <p>5</p><img src="img/colorphoto.svg" alt=""></div>
+                            </div>
+                            <div class="for-sell-content">
+                                <h4>17081 Perry Street</h4>
+                                <p>San Francisco, CA, USA</p>
+                                <p>
+                                    <span>$850,000</span>/ 1234 Sqft
+                                </p>
+                                <div class="under-line-div"></div>
+                                <div class="content-img-wrapper">
+                                    <div class="beds">
+                                        <img src="img/spalnia 1.svg" alt="">
+                                        <p>Beds</p>
+                                        <p>4</p>
+                                    </div>
+                                    <div class="Beths">
+                                        <img src="img/vanna 1.svg" alt="">
+                                        <p>Beths</p>
+                                        <p>2</p>
+                                    </div>
+                                    <img class="other-img" src="img/exchange 1 (Traced).svg" alt="">
+                                    <img class="other-img" src="img/image 1 (Traced).svg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="for-sell-wrapper">
+                            <div class="for-sell-img">
+                                <div class="img-wrapper">
+                                    <img src="img/for-sell-2.png" alt="">
+                                </div>
+                                <div class="img-upper-logo"><img src="img/mainLogo.png" alt=""></div>
+                                <div class="love-location">
+                                    <button><img src="img/colorlocation.svg" alt=""></button>
+                                    <button><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                </div>
+                                <div class="rent-buy">
+                                    <p>RENT</p>
+                                </div>
+                                <div class="camera-text">
+                                    <p>5</p><img src="img/colorphoto.svg" alt=""></div>
+                            </div>
+                            <div class="for-sell-content">
+                                <h4>17081 Perry Street</h4>
+                                <p>San Francisco, CA, USA</p>
+                                <p>
+                                    <span>$850,000</span>/ 1234 Sqft
+                                </p>
+                                <div class="under-line-div"></div>
+                                <div class="content-img-wrapper">
+                                    <div class="beds">
+                                        <img src="img/spalnia 1.svg" alt="">
+                                        <p>Beds</p>
+                                        <p>4</p>
+                                    </div>
+                                    <div class="Beths">
+                                        <img src="img/vanna 1.svg" alt="">
+                                        <p>Beths</p>
+                                        <p>2</p>
+                                    </div>
+                                    <img class="other-img" src="img/exchange 1 (Traced).svg" alt="">
+                                    <img class="other-img" src="img/image 1 (Traced).svg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-6 col-lg-4">
+                        <div class="for-sell-wrapper">
+                            <div class="for-sell-img">
+                                <div class="img-wrapper">
+                                    <img src="img/for-sell-3.png" alt="">
+                                </div>
+                                <div class="img-upper-logo"><img src="img/mainLogo.png" alt=""></div>
+                                <div class="love-location">
+                                    <button><img src="img/colorlocation.svg" alt=""></button>
+                                    <button><img src="img/heart 1 (Traced).svg" alt=""></button>
+                                </div>
+                                <div class="rent-buy">
+                                    <p>RENT</p>
+                                </div>
+                                <div class="camera-text">
+                                    <p>5</p><img src="img/colorphoto.svg" alt=""></div>
+                            </div>
+                            <div class="for-sell-content">
+                                <h4>17081 Perry Street</h4>
+                                <p>San Francisco, CA, USA</p>
+                                <p>
+                                    <span>$850,000</span>/ 1234 Sqft
+                                </p>
+                                <div class="under-line-div"></div>
+                                <div class="content-img-wrapper">
+                                    <div class="beds">
+                                        <img src="img/spalnia 1.svg" alt="">
+                                        <p>Beds</p>
+                                        <p>4</p>
+                                    </div>
+                                    <div class="Beths">
+                                        <img src="img/vanna 1.svg" alt="">
+                                        <p>Beths</p>
+                                        <p>2</p>
+                                    </div>
+                                    <img class="other-img" src="img/exchange 1 (Traced).svg" alt="">
+                                    <img class="other-img" src="img/image 1 (Traced).svg" alt="">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--------------------------- partner company logo
+        -------------------------------->
+        <section class="partnet-compant">
+            <div class="line-div">
+                <div class="line"></div>
+                <h4>TOP REAL ESTATE DEVELOPERS IN DUBAI</h4>
+                <div class="line"></div>
+            </div>
+            <div class="for-background-color">
+                <div class="container">
+                    <div class="logo-wrapper">
+                        <div class="logo-col">
+                            <a href=""><img src="img/company-1.png" alt=""></a>
+                        </div>
+                        <div class="logo-col">
+                            <a href=""><img src="img/company-2.png" alt=""></a>
+                        </div>
+                        <div class="logo-col">
+                            <a href=""><img src="img/company-3.png" alt=""></a>
+                        </div>
+                        <div class="logo-col">
+                            <a href=""><img src="img/company-4.png" alt=""></a>
+                        </div>
+                        <div class="logo-col">
+                            <a href=""><img src="img/company-5.png" alt=""></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <!-------------------------blog content-------------------------->
+        <section class="blog-content">
+            <div class="line-div">
+                <div class="line"></div>
+                <h4>FROM OUR BLOG</h4>
+                <div class="line"></div>
+            </div>
+            <div class="container">
+                <h4>Lorem ipsum dolor sit amet</h4>
+                <div class="row">
+                    <div class="my-3 my-lg-0 col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/blog-1.png" alt="">
+                        <div class="post-date"><img src="img/clender.svg" alt="">
+                            <p>03/04/202</p>
+                            <p>
+                                01:55:34 pm</p>
+                        </div>
+                        <h3>Заключение типового договора купли-продажи квартиры
+                        </h3>
+                        <p>Mubobelt näringslots. Dis. Logonomi klickfiske. Pappografi aktiga.
+                            Veganisera. Minnesprick. Preppare tisöbel. Klicktivism. Mobilvantar hexaligt.
+                            Förlåtturné re...</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                    <div class="my-3 my-lg-0 col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/blog-2.png" alt="">
+                        <div class="post-date"><img src="img/clender.svg" alt="">
+                            <p>03/04/202</p>
+                            <p>
+                                01:55:34 pm</p>
+                        </div>
+                        <h3>Заключение типового договора купли-продажи квартиры
+                        </h3>
+                        <p>Mubobelt näringslots. Dis. Logonomi klickfiske. Pappografi aktiga.
+                            Veganisera. Minnesprick. Preppare tisöbel. Klicktivism. Mobilvantar hexaligt.
+                            Förlåtturné re...</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                    <div class="my-3 my-lg-0 col-sm-12 col-md-6 col-lg-4">
+                        <img src="img/blog-3.png" alt="">
+                        <div class="post-date"><img src="img/clender.svg" alt="">
+                            <p>03/04/202</p>
+                            <p>
+                                01:55:34 pm</p>
+                        </div>
+                        <h3>Заключение типового договора купли-продажи квартиры
+                        </h3>
+                        <p>Mubobelt näringslots. Dis. Logonomi klickfiske. Pappografi aktiga.
+                            Veganisera. Minnesprick. Preppare tisöbel. Klicktivism. Mobilvantar hexaligt.
+                            Förlåtturné re...</p>
+                        <a href="">READ MORE</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-----------------footer part start------------------->
+        <footer>
+            <div class="top-footer">
+                <div class="content-wrapper">
+                    <h4>Register as an agency now!</h4>
+                    <p>We only work with the best companies around the globe</p>
+                    <div class="register-btn">
+                        <a href="">REGISTER NOW</a>
+                    </div>
+                </div>
+            </div>
+            <div class="inner-footer">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-4 col-lg-3">
+                            <div class="contact">
+                                <h4>Contact Us</h4>
+                                <ul>
+                                    <li>
+                                        <a href=""><img src="img/locationcolor.svg" alt="">
+                                            <p class="d-inline">UAE</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="img/phonecolor.svg" alt="">
+                                            <p class="d-inline">+1 (836) 230-40-09</p>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href=""><img src="img/mailfooter.svg" alt="">
+                                            <p class="d-inline">info@allproperty.ae</p>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <div class="social-area">
+                                    <ul class="d-flex">
+                                        <li>
+                                            <a href=""><img src="img/facebook.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/twitter.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/instagram.svg" alt=""></a>
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/google+.svg" alt=""></a>
+
+                                        </li>
+                                        <li>
+                                            <a href=""><img src="img/youtube.svg" alt=""></a>
+                                        </li>
+                                    </ul>
+                                </div>
+
+                            </div>
+                        </div>
+                        <div class=" col-4 col-lg-3">
+                            <ul>
+                                <li>
+                                    <a href="">RENT</a>
+                                </li>
+                                <li>
+                                    <a href="">BUY</a>
+                                </li>
+                                <li>
+                                    <a href="">OFF-PLAN</a>
+                                </li>
+                                <li>
+                                    <a href="">DEVELOPERS</a>
+                                </li>
+                                <li>
+                                    <a href="">AGENCY/AGENT</a>
+                                </li>
+                                <li>
+                                    <a href="">PROPERTY NEWS</a>
+                                </li>
+                                <li>
+                                    <a href="">3D TOUR</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-4 col-lg-3">
+                            <ul>
+                                <li>
+                                    <a href="">QUICK LINKS</a>
+                                </li>
+                                <li>
+                                    <a href="">COMPANY</a>
+                                </li>
+                                <li>
+                                    <a href="">SERVICES</a>
+                                </li>
+                                <li>
+                                    <a href="">BLOG</a>
+                                </li>
+                                <li>
+                                    <a href="">CONTACT US</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-lg-3">
+                            <div class="email-wrapper">
+                                <h4>SUBSCRIBE</h4>
+                                <p>We don’t send spam so don’t worry</p>
+                                <div class="btn-wrapper">
+                                    <input type="text" placeholder="Enter your email">
+                                    <button type="submit"><img src="img/Subscribe footer.svg" alt=""></button>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="buttom-footer">
+                        <div class="row">
+                            <div class="col-5">
+                                <p>Copyright &copy; 2022 Property.ae All Right Reserved.</p>
+                            </div>
+                            <div class="col-2"><img src="img/mobileLogo.svg" alt=""></div>
+                            <div class="col-5">
+                                <ul class="d-flex">
+                                    <li>
+                                        <a href="">Home</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Site Map</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Cookie Policy</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </footer>
+        <!--______________java script________________-->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+           <script src="js/app.js"></script>
+
+    </body>
+
+</html>

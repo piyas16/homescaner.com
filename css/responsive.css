@@ -1,0 +1,257 @@
+/************************
+All device responsive file
+*************************/
+@media (max-width: 480px) {}
+/* X-Small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text] {
+        font-size: 0.6rem;
+    }
+    .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .Property-type select {
+        font-size: 0.6rem;
+    }
+    .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .search-submit button {
+        font-size: 0.6rem;
+    }
+    .banner-section .banner-content-wrapper .search-box .more-option .check-box {
+        margin-top: 0.5rem;
+    }
+
+    .shortBy .content-wrapper .content-feature-wrapper .apartment .img-wap {
+
+        margin: 0 0.5rem;
+
+    }
+    .banner-section .banner-content-wrapper {
+        width: 95%;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+    .shortBy .content-wrapper .content-feature-wrapper .AmazingView {
+        font-size: 17px !important;
+    }
+
+    .banner-section .banner-content-wrapper .search-box .more-option .check-box label {
+        font-size: 0.6rem !important;
+    }
+    .banner-section .banner-content-wrapper .search-box .more-option p {
+
+        font-size: 0.6rem;
+    }
+    .banner-section .banner-content-wrapper .search-box .more-option select {
+        color: #06243A;
+        border: 0;
+        font-size: 0.6rem;
+    }
+}
+/* Extra Small devices (landscape phones, 576px and up)*/
+@media (max-width: 991.98px) {
+    .mobile-logo img {
+        width: 3.5rem;
+    }
+    .banner-section {
+        height: 100vh;
+    }
+    /* .banner-section .banner-content-wrapper {
+        margin-top: 0rem;
+    } */
+    .Mobsticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 57565755;
+    }
+    .line {
+        display: none;
+    }
+    .shortBy .content-wrapper .content-feature-wrapper .AmazingView {
+        text-align: center;
+    }
+    .shortBy .content-wrapper .content-feature-wrapper .apartment {
+        justify-content: center !important;
+    }
+    .shortBy .content-wrapper .content-feature-wrapper .AmazingView {
+        font-size: 21px;
+    }
+    .shortBy .content-wrapper .content-feature-wrapper .apartment p {
+        font-size: 20px;
+    }
+    .call-number {
+        display: flex;
+        justify-content: space-between;
+        color: #fff;
+        padding-top: 0.3rem;
+    }
+
+    .call-number p {
+        font-size: 1.2rem;
+        padding-top: 0.9rem;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .Country-selection {
+        padding: 23px 1rem;
+    }
+    .header-area {
+        height: 4rem;
+    }
+    .offcanvas-header .header-img {
+        width: 5rem;
+    }
+    .offcanvas-header {
+        padding: 0.954rem 1rem;
+        background: #2D333C;
+        justify-content: space-between;
+    }
+
+    li.nav-item {
+        border-bottom: 3px solid #B68157;
+        width: 100%;
+        text-align: center;
+        margin: 1rem 0;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .navbar-nav .frist-child::after {
+        display: none;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .user-account {
+        display: none !important;
+    }
+    .laptop-logo {
+        display: none;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .Country-selection select {
+        background: #ffffff;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .main-logo img {
+        width: 100%;
+        max-width: 102px;
+        padding: 0.6rem;
+        display: block;
+        margin: auto;
+    }
+    .offcanvas-body.p-lg-0.d-flex {
+        background: #FFFFFF !important;
+        display: block !important;
+    }
+    .top-header-area {
+        padding: 0.8rem 0 !important;
+    }
+    /**************************
+     **************************/
+    .offcanvas {
+        width: 98% !important;
+    }
+    .offcanvas-start-lg {
+        top: 0;
+        left: 0;
+        border-right: 1px solid rgba(0, 0, 0, .2);
+        transform: translateX(-100%);
+    }
+    /*************************
+    **************************/
+    .custom-col button.btn {
+        display: block !important;
+    }
+    .header-area .top-header-area .custom-row .curency-select {
+        display: none;
+    }
+    .custom-col-none {
+        display: none;
+    }
+    .social-area {
+        display: none !important;
+    }
+    .mobile-logo {
+        display: block !important;
+    }
+}
+
+/*********************
+ Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {}
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {}
+***********************/
+
+/* Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+    .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 57565755;
+    }
+
+    .shortBy .content-wrapper .content-feature-wrapper .AmazingView {
+        font-size: 14px;
+    }
+    .shortBy .content-wrapper .content-feature-wrapper .apartment p {
+        font-size: 14px;
+    }
+    .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input img {
+        top: 7px;
+    }
+
+    .navbar {
+        background: #F6F7F9;
+    }
+    .languge-curency {
+        display: none !important;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .user-account a p {
+        font-size: 0.7rem;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .Country-selection select {
+        font-size: 0.7rem;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .navbar-nav li a {
+        font-size: 0.7rem;
+    }
+    .offcanvas {
+        visibility: visible;
+        position: relative;
+        background: none;
+        border: none;
+        justify-content: end;
+        width: 100%;
+    }
+    .top-header-area {
+        font-size: 1rem;
+    }
+}
+
+/* X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+    /* footer,
+    header a,
+    p {
+        font-size: 1rem;
+    } */
+
+    .header-area .inner-header-area .navbar .offcanvas-body .user-account a p {
+        font-size: 1rem;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .Country-selection select {
+        font-size: 1rem;
+    }
+    .header-area .inner-header-area .navbar .offcanvas-body .navbar-nav li a {
+        font-size: 1rem;
+    }
+
+}
+
+/* XX-Large devices (larger desktops, 1400px and up) */
+@media (min-width: 1400px) {
+    /* footer,
+    header a,
+    p {
+        font-size: 1rem;
+    } */
+
+}
