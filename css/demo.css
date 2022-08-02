@@ -172,10 +172,10 @@ Typography
 .header-area .inner-header-area .navbar .offcanvas-body .navbar-nav .frist-child::after {
   content: "";
   position: absolute;
-  top: 9px;
+  top: 8px;
   left: -1rem;
   width: 1.5px;
-  height: 0.8rem;
+  height: 0.9rem;
   background: #B68157;
 }
 .header-area .inner-header-area .navbar .offcanvas-body .navbar-nav li a {
@@ -235,7 +235,6 @@ Banner section
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -259,7 +258,7 @@ Banner section
 }
 .banner-section .banner-content-wrapper .search-box {
   margin: 3rem 0;
-  padding: 0 0.8rem;
+  padding: 0.5rem 0.8rem;
   background: #FFFFFF;
   border-radius: 5.7925px;
 }
@@ -270,12 +269,20 @@ Banner section
   color: #06243A;
   text-decoration: underline;
 }
+.banner-section .banner-content-wrapper .search-box .selection-button-wrapper .active:hover {
+  color: #B68157;
+}
 .banner-section .banner-content-wrapper .search-box .selection-button-wrapper button {
   color: #B68157;
   background: #fff;
   border: 0;
   font-weight: 700;
   font-size: 14px;
+  transition: all 0.4s;
+}
+.banner-section .banner-content-wrapper .search-box .selection-button-wrapper button:hover {
+  color: #000000;
+  text-decoration: underline;
 }
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input {
   position: relative;
@@ -283,7 +290,7 @@ Banner section
 }
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text] {
   font-size: 0.7rem;
-  padding: 0.35rem 0;
+  padding: 0.3rem 10px;
   border: 1.5px solid #B68157;
   border-radius: 3.68145px;
   width: 100%;
@@ -298,22 +305,28 @@ Banner section
   color: #B68157;
 }
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text]::-moz-placeholder {
-  padding-left: 2rem;
+  padding-left: 1rem;
   font-size: 0.7rem;
+  background-image: url("../img/searchcolor.svg");
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: 2px 0;
 }
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text]:-ms-input-placeholder {
-  padding-left: 2rem;
+  padding-left: 1rem;
   font-size: 0.7rem;
+  background-image: url("../img/searchcolor.svg");
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: 2px 0;
 }
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text]::placeholder {
-  padding-left: 2rem;
+  padding-left: 1rem;
   font-size: 0.7rem;
-}
-.banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input img {
-  position: absolute;
-  top: 7px;
-  left: 0.5rem;
-  width: 1rem;
+  background-image: url("../img/searchcolor.svg");
+  background-repeat: no-repeat;
+  background-size: 1rem;
+  background-position: 2px 0;
 }
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .Property-type {
   display: flex;
@@ -733,6 +746,9 @@ for-sell css
 .for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .beds p:hover {
   color: #B68157;
 }
+.for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .Beths img {
+  max-width: 1.75rem;
+}
 .for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .Beths p {
   font-weight: 700;
 }
@@ -874,6 +890,9 @@ footer .top-footer .content-wrapper .register-btn {
   border-radius: 5.72px;
   width: 10rem;
   text-decoration: none;
+}
+footer .top-footer .content-wrapper .register-btn:hover {
+  background: #B68157;
 }
 footer .top-footer .content-wrapper .register-btn a {
   text-decoration: none;
