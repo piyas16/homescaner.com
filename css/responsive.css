@@ -1,7 +1,19 @@
 /************************
 All device responsive file
 *************************/
-@media (max-width: 480px) {}
+
+/*****************************************/
+@media (max-width: 480px) {
+    .banner-section .banner-content-wrapper .search-box .more-option .check-box label {
+        margin-left: 0.1rem;
+    }
+    .banner-section .banner-content-wrapper .search-box .more-option select {
+        margin-top: 9px;
+    }
+    .banner-section .banner-content-wrapper .search-box .more-option p {
+        margin-top: 9px;
+    }
+}
 /* X-Small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
 
@@ -9,9 +21,6 @@ All device responsive file
         font-size: 0.6rem;
     }
     .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .Property-type select {
-        font-size: 0.6rem;
-    }
-    .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .search-submit button {
         font-size: 0.6rem;
     }
     .banner-section .banner-content-wrapper .search-box .more-option .check-box {
@@ -38,25 +47,28 @@ All device responsive file
     }
 
     .banner-section .banner-content-wrapper .search-box .more-option .check-box label {
-        font-size: 0.6rem !important;
+        font-size: 0.5rem !important;
     }
     .banner-section .banner-content-wrapper .search-box .more-option p {
 
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
     .banner-section .banner-content-wrapper .search-box .more-option select {
         color: #06243A;
         border: 0;
-        font-size: 0.6rem;
+        font-size: 0.5rem;
     }
 }
 /* Extra Small devices (landscape phones, 576px and up)*/
 @media (max-width: 991.98px) {
+    .banner-section .banner-content-wrapper .top-content-wrapper h1 {
+        margin-top: 4rem;
+    }
     .mobile-logo img {
         width: 3.5rem;
     }
     .banner-section {
-        height: 100vh;
+        height: 68vh;
     }
     /* .banner-section .banner-content-wrapper {
         margin-top: 0rem;
