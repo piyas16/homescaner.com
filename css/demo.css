@@ -76,6 +76,9 @@ Typography
   background: #2D333C;
   font-size: 1rem;
 }
+.header-area .top-header-area .custom-row .curency-select select:hover {
+  color: #B68157;
+}
 .header-area .top-header-area .custom-row .languge-selection {
   display: flex;
   align-items: center;
@@ -89,6 +92,9 @@ Typography
   background: #2D333C;
   font-size: 1rem;
 }
+.header-area .top-header-area .custom-row .languge-selection select:hover {
+  color: #B68157;
+}
 .header-area .top-header-area .custom-row .contact-number {
   display: flex;
   justify-content: start;
@@ -98,6 +104,9 @@ Typography
   text-decoration: none;
   color: #FFFFFF;
   font-size: 1rem;
+}
+.header-area .top-header-area .custom-row .contact-number a:hover {
+  color: #B68157;
 }
 .header-area .top-header-area .custom-row .contact-number a img {
   margin-right: 1rem;
@@ -148,6 +157,9 @@ Typography
   color: #B68157;
   background: #F6F7F9;
 }
+.header-area .inner-header-area .navbar .offcanvas-body .Country-selection select:hover {
+  color: #000;
+}
 .header-area .inner-header-area .navbar .offcanvas-body .navbar-nav {
   display: flex;
   align-items: center;
@@ -170,6 +182,9 @@ Typography
   font-weight: 700;
   color: #B68157;
 }
+.header-area .inner-header-area .navbar .offcanvas-body .navbar-nav li a:hover {
+  color: #000;
+}
 .header-area .inner-header-area .navbar .offcanvas-body .user-account {
   align-items: center;
 }
@@ -183,6 +198,12 @@ Typography
   text-decoration: none;
   justify-content: center;
   align-items: center;
+}
+.header-area .inner-header-area .navbar .offcanvas-body .user-account a:hover {
+  background: #B68157;
+}
+.header-area .inner-header-area .navbar .offcanvas-body .user-account a:hover p {
+  color: #fff;
 }
 .header-area .inner-header-area .navbar .offcanvas-body .user-account a img {
   width: 100%;
@@ -267,6 +288,15 @@ Banner section
   border-radius: 3.68145px;
   width: 100%;
 }
+.banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text]:hover::-moz-placeholder {
+  color: #B68157;
+}
+.banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text]:hover:-ms-input-placeholder {
+  color: #B68157;
+}
+.banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text]:hover::placeholder {
+  color: #B68157;
+}
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .main-search-input input[type=text]::-moz-placeholder {
   padding-left: 2rem;
   font-size: 0.7rem;
@@ -297,6 +327,9 @@ Banner section
   width: 100%;
   margin: 0 0.2rem;
 }
+.banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .Property-type select:hover {
+  color: #B68157;
+}
 .banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .search-submit {
   display: flex;
   justify-content: end;
@@ -309,10 +342,14 @@ Banner section
   color: #fff;
   width: 100%;
 }
+.banner-section .banner-content-wrapper .search-box .srarch-option-wrapper .search-submit button:hover {
+  background: #fff;
+  color: #B68157;
+}
 .banner-section .banner-content-wrapper .search-box .more-option {
   display: flex;
   justify-content: space-between;
-  padding: 0.4rem 0rem;
+  padding: 0.4rem 0;
 }
 .banner-section .banner-content-wrapper .search-box .more-option .check-box {
   display: flex;
@@ -343,6 +380,11 @@ Banner section
   border-radius: 8px;
   color: #fff;
   padding: 0.6rem 0.8rem;
+  transition: all 0.6s;
+}
+.banner-section .banner-content-wrapper .banner-button-wrapper a:hover {
+  color: #000;
+  background: #F6F7F9;
 }
 
 /*************************
@@ -352,7 +394,7 @@ Charming Apartment
   padding: 4rem 0;
 }
 .shortBy .line-div {
-  padding: 0rem 2rem 2.5rem 2.5rem;
+  padding: 0 2rem 2.5rem 2.5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -372,9 +414,18 @@ Charming Apartment
 .shortBy .content-wrapper .main-slider .slider-img-wrapper {
   position: relative;
 }
-.shortBy .content-wrapper .main-slider .slider-img-wrapper .img-class {
+.shortBy .content-wrapper .main-slider .slider-img-wrapper .img-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
+.shortBy .content-wrapper .main-slider .slider-img-wrapper .img-wrapper .img-class {
   position: relative;
   width: 45rem;
+  transform: scale(1);
+  transition: all 0.6s;
+}
+.shortBy .content-wrapper .main-slider .slider-img-wrapper .img-wrapper .img-class:hover {
+  transform: scale(1.4);
 }
 .shortBy .content-wrapper .main-slider .slider-img-wrapper .logo-btn-wrapper {
   position: absolute;
@@ -419,12 +470,18 @@ Charming Apartment
   color: #B68157;
   font-weight: 400;
 }
+.shortBy .content-wrapper .content-feature-wrapper .Premium p:hover {
+  color: #B68157;
+}
 .shortBy .content-wrapper .content-feature-wrapper .AmazingView {
   padding-top: 0.5rem;
   margin-bottom: 0;
   color: #06243A;
   text-align: center;
   font-weight: 700;
+}
+.shortBy .content-wrapper .content-feature-wrapper .AmazingView:hover {
+  color: #B68157;
 }
 .shortBy .content-wrapper .content-feature-wrapper .apartment {
   display: flex;
@@ -461,6 +518,9 @@ Charming Apartment
   margin-top: 6px;
   margin-bottom: 0;
 }
+.shortBy .content-wrapper .content-feature-wrapper .apartment p:hover {
+  color: #B68157;
+}
 .shortBy .content-wrapper .content-feature-wrapper .check ul {
   margin-top: 0;
   margin-bottom: 0;
@@ -473,18 +533,27 @@ Charming Apartment
 .shortBy .content-wrapper .content-feature-wrapper .check ul li p {
   font-size: 14px;
 }
+.shortBy .content-wrapper .content-feature-wrapper .check ul li p:hover {
+  color: #B68157;
+}
+.shortBy .content-wrapper .content-feature-wrapper .check ul li p span:hover {
+  color: #B68157;
+}
 .shortBy .content-wrapper .content-feature-wrapper .other-listings {
   text-align: center;
   font-weight: 400;
   font-size: 14px;
   margin-top: -1rem;
 }
+.shortBy .content-wrapper .content-feature-wrapper .other-listings:hover {
+  color: #B68157;
+}
 
 /************************
 DISCOVER VIRTUAL TOUR
 ************************/
 .virtual-section .line-div {
-  padding: 0rem 2rem 2.5rem 2.5rem;
+  padding: 0 2rem 2.5rem 2.5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -520,6 +589,9 @@ Abu-Dhabi
   margin-bottom: 0;
   color: #fff;
 }
+.abu-Dhabi .all-Abu-Dhabi-main-content .Abu-Dhabi-main-content p:hover {
+  color: #B68157;
+}
 
 /***********************
 for-sell css
@@ -528,7 +600,7 @@ for-sell css
   padding-top: 2rem;
 }
 .for-sell .line-div {
-  padding: 0rem 2.5rem;
+  padding: 0 2.5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -554,8 +626,17 @@ for-sell css
 .for-sell .for-sell-wrapper .for-sell-img {
   position: relative;
 }
+.for-sell .for-sell-wrapper .for-sell-img .img-wrapper {
+  width: 100%;
+  overflow: hidden;
+}
 .for-sell .for-sell-wrapper .for-sell-img .img-wrapper img {
   width: 100%;
+  transform: scale(1);
+  transition: all 0.6s;
+}
+.for-sell .for-sell-wrapper .for-sell-img .img-wrapper img:hover {
+  transform: scale(1.4);
 }
 .for-sell .for-sell-wrapper .for-sell-img .img-upper-logo {
   position: absolute;
@@ -578,6 +659,9 @@ for-sell css
   margin-top: 0.3rem;
   border-radius: 2.81182px;
 }
+.for-sell .for-sell-wrapper .for-sell-img .love-location button:hover {
+  background: rgb(255, 0, 0);
+}
 .for-sell .for-sell-wrapper .for-sell-img .rent-buy {
   border-radius: 3.51535px 0 0 0;
   background: #fff;
@@ -589,6 +673,9 @@ for-sell css
 .for-sell .for-sell-wrapper .for-sell-img .rent-buy p {
   margin-bottom: 0;
   color: #B68157;
+}
+.for-sell .for-sell-wrapper .for-sell-img .rent-buy p:hover {
+  color: #000000;
 }
 .for-sell .for-sell-wrapper .for-sell-img .camera-text {
   display: flex;
@@ -613,6 +700,9 @@ for-sell css
   color: #06243A;
   font-weight: 700;
 }
+.for-sell .for-sell-wrapper .for-sell-content h4:hover {
+  color: #B68157;
+}
 .for-sell .for-sell-wrapper .for-sell-content p {
   margin-bottom: 0;
   color: #06243A;
@@ -621,6 +711,9 @@ for-sell css
 .for-sell .for-sell-wrapper .for-sell-content p span {
   font-weight: 700;
   color: #B68157;
+}
+.for-sell .for-sell-wrapper .for-sell-content p span:hover {
+  color: #000000;
 }
 .for-sell .for-sell-wrapper .for-sell-content .under-line-div {
   margin: 0.6rem 0;
@@ -637,8 +730,14 @@ for-sell css
 .for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .beds p {
   font-weight: 700;
 }
+.for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .beds p:hover {
+  color: #B68157;
+}
 .for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .Beths p {
   font-weight: 700;
+}
+.for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .Beths p:hover {
+  color: #B68157;
 }
 .for-sell .for-sell-wrapper .for-sell-content .content-img-wrapper .other-img {
   margin-top: -2rem;
@@ -682,7 +781,7 @@ blog-content
   margin: 3rem 0;
 }
 .blog-content .line-div {
-  padding: 0rem 2.5rem;
+  padding: 0 2.5rem;
   display: flex;
   justify-content: space-around;
 }
@@ -701,8 +800,17 @@ blog-content
   color: #B68157;
   text-align: center;
 }
-.blog-content img {
+.blog-content .img-trasition {
   width: 100%;
+  overflow: hidden;
+}
+.blog-content .img-trasition img {
+  width: 100%;
+  transform: scale(1);
+  transition: all 0.6s;
+}
+.blog-content .img-trasition img:hover {
+  transform: scale(1.4);
 }
 .blog-content .post-date {
   display: flex;
@@ -714,12 +822,21 @@ blog-content
 .blog-content .post-date p {
   margin: 1rem 0.5rem;
 }
+.blog-content .post-date p:hover {
+  color: #B68157;
+}
 .blog-content h3 {
   font-weight: 700;
+}
+.blog-content h3:hover {
+  color: #B68157;
 }
 .blog-content a {
   color: #F0CC8F;
   text-decoration: underline;
+}
+.blog-content a:hover {
+  color: #000000;
 }
 
 /***********************
